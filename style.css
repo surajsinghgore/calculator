@@ -148,6 +148,7 @@ body {
         height: auto;
         width: 88vw;
         z-index: 2;
+        margin-top: 4%;
         border-radius: 20px;
       }
       .frame_body .main_input {
