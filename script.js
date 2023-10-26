@@ -3,10 +3,11 @@ dialBox.innerHTML = 0;
 var arr = [];
 let result = document.getElementById("result");
 result.style.display = "none";
-
+dialBox.style.paddingBottom="27%"
 const removeAll = () => {
   dialBox.innerHTML = "0";
   arr = [];
+dialBox.style.paddingBottom="27%"
   result.style.display = "none";
 };
 const percentage = () => {
@@ -65,6 +66,8 @@ const plus = () => {
 
 // result calculate
 const equal = () => {
+dialBox.style.paddingBottom="0%"
+
   result.style.display = "block";
   let calcResult = eval(dialBox.innerText);
   result.innerText = calcResult;
