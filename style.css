@@ -1,119 +1,125 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-
-    background-image: linear-gradient(to right, #101010, #1d1d1d, #2a2a2a, #383838, #464646);
-}
-
-.mobile_container{
-    
-    position: relative;
-  
-}
-.mobile_container img{
-margin-top: 1.2%;
-    height: 100vh;
-    margin-left: 43%;
-    z-index: 99;
+body {
+  background-image: linear-gradient(
+    to right,
+    #101010,
+    #1d1d1d,
+    #2a2a2a,
+    #383838,
+    #464646
+  );
 }
 
-.frame_body{
-position: absolute;
-top: 7.6%;
-left: 45%;
-    background-color: rgb(255, 255, 255);
-height: 85vh;
-width: 18%;
-z-index: 2;
-border-radius: 20px;
+.mobile_container {
+  position: relative;
+}
+.mobile_container img {
+  margin-top: 1.2%;
+  height: 100vh;
+  margin-left: 43%;
+  z-index: 99;
 }
 
-.frame_body .main_input{
-    overflow: hidden;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    height: 220px;
-    width: 100%;
-    padding-top: 30%;
-    background-color: #464646;
+.frame_body {
+  position: absolute;
+  top: 7.6%;
+  left: 45%;
+  background-color: rgb(255, 255, 255);
+  height: 85vh;
+  width: 18%;
+  z-index: 2;
+  border-radius: 20px;
 }
 
- .frame_body .main_input .input{
-     
-     margin-top: 6%;
-     text-align: right;
-     background-color: none;
-     font-size: 1.5vw;
-     background: none;
-     border: none;
-     outline: none;
-     padding-right: 5%;
-     text-align: right;
-     color: #8c8c8c;
-    }
-
-    .frame_body .main_input .input span{
-        color: rgb(170, 255, 191);
-        }
-  
-    .frame_body .main_input .result{
-padding-right: 5%;
-        text-align: right;
-        font-size: 1.7vw;
-        color: white;
-        margin-top: 5%;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-
-    .btn_section{
-display: flex;
-flex-wrap: wrap;
-padding-top: 3%;
-padding-bottom: 3%;
-        width: 100%;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        background-color: #101010;
-    }
-
-    .btn_section .btn{
-width: 20%;
-height: 50px;
-text-align: center;
-cursor: pointer;
-line-height: 50px;
-border-radius: 8px;
-margin: 2.5%;
-color: white;
-background-color: #292929;
-font-size: 1.2vw;
-box-shadow: 1px 1.2px 1px 1px #3a3a3a;
-transition: all 0.2s;
-    }
-
-    .btn_section .btn:hover{
-        color: rgb(161, 161, 161);
-        box-shadow: 1px 1.2px 1px 1px #282828;
-    }
-.bgSize{
-    font-size: 1.7vw !important;
-    font-weight: 500 !important;
+.frame_body .main_input {
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 220px;
+  width: 100%;
+  padding-top: 30%;
+  background-color: #464646;
 }
 
-.delete{
-
-    color: rgb(255, 166, 166) !important;
+.frame_body .main_input .input {
+  margin-top: 6%;
+  text-align: right;
+  background-color: none;
+  font-size: 1.7vw;
+  background: none;
+  border: none;
+  outline: none;
+  padding-right: 5%;
+  text-align: right;
+  color: #bbbbbb;
 }
 
-.equal{
-
-    color: rgb(240, 76, 26) !important;
+.frame_body .main_input .input span {
+  color: rgb(170, 255, 191);
 }
 
-.clear{
-    color: rgb(255, 85, 85) !important;
+.frame_body .main_input .result {
+  padding-right: 5%;
+  text-align: right;
+  font-size: 2vw;
+  color: white;
+  margin-top: 8%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn_section {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #101010;
+}
+
+.btn_section .btn {
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 50px;
+  border-radius: 8px;
+  margin: 2.5%;
+  color: white;
+  background-color: #292929;
+  font-size: 1.2vw;
+  box-shadow: 1px 1.2px 1px 1px #3a3a3a;
+  transition: all 0.2s;
+}
+
+.btn_section .btn:hover {
+  color: rgb(161, 161, 161);
+  box-shadow: 1px 1.2px 1px 1px #282828;
+}
+.bgSize {
+  font-size: 1.7vw !important;
+  font-weight: 500 !important;
+}
+
+.delete {
+  color: rgb(255, 166, 166) !important;
+}
+
+.equal {
+  color: rgb(240, 76, 26) !important;
+}
+.equal:hover{
+  color: rgb(255, 60, 0) !important;
+}
+
+.clear {
+  color: rgb(255, 85, 85) !important;
+}
+.clear:hover{
+  color: rgb(255, 179, 179) !important;
 }
