@@ -134,14 +134,15 @@ body {
         height: 170vw;
         width: 94vw;
         margin-left: 3%;
-        z-index: 99;
+        z-index: -1;
       }
 
       .frame_body {
         position: relative;
         top: 0%;
         left:0%;
-        padding-top: 9%;
+        z-index: 99;
+        padding-top: 9.8%;
         padding-left: 11.7%;
         background: none;
         height: auto;
