@@ -124,7 +124,7 @@ body {
   color: rgb(255, 179, 179) !important;
 }
 /* media query */
-@media (min-width:0px) and (max-width:600px) {
+@media (min-width:0px) and (max-width:1000px) {
    
 
     .mobile_container img {
