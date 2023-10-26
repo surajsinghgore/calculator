@@ -123,3 +123,92 @@ body {
 .clear:hover{
   color: rgb(255, 179, 179) !important;
 }
+/* media query */
+@media (min-width:0px) and (max-width:600px) {
+   
+
+    .mobile_container img {
+        position: absolute;
+        top: 0%;
+        left: 0;
+        height: 170vw;
+        width: 94vw;
+        margin-left: 3%;
+        z-index: 99;
+      }
+
+      .frame_body {
+        position: relative;
+        top: 0%;
+        left:0%;
+        padding-top: 9%;
+        padding-left: 11.7%;
+        background: none;
+        height: auto;
+        width: 88vw;
+        z-index: 2;
+        border-radius: 20px;
+      }
+      .frame_body .main_input {
+        overflow: hidden;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        height: auto;
+        width: 100%;
+        padding-top: 20%;
+        padding-bottom: 35%;
+        background-color: #464646;
+      } 
+      .frame_body .main_input .input {
+        margin-top: 0%;
+        text-align: right;
+        background-color: none;
+        font-size: 11vw;
+        background: none;
+        border: none;
+        outline: none;
+        padding-right: 5%;
+        text-align: right;
+        color: #bbbbbb;
+      }
+
+      .frame_body .main_input .result {
+        padding-right: 5%;
+        text-align: right;
+        font-size:12vw;
+        color: white;
+        margin-top: 8%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      
+.btn_section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #101010;
+  }
+  
+  .btn_section .btn {
+    width: 20%;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+    line-height: 13.8vw;
+    border-radius: 8px;
+    margin: 2.5%;
+    color: white;
+    background-color: #292929;
+    font-size: 5vw;
+    box-shadow: 1px 1.2px 1px 1px #3a3a3a;
+    transition: all 0.2s;
+  }
+  .bgSize {
+    font-size: 5vw !important;
+    font-weight: 500 !important;
+  }
+}
